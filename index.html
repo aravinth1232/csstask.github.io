@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv='cache-control' content='no-cache'> 
+    <meta http-equiv='expires' content='0'> 
+     <meta http-equiv='pragma' content='no-cache'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link rel="shortcut icon" href="4.png" type="image/x-icon">
+    <link rel="stylesheet"
+        href= 
+"https://fonts.googleapis.com/css?family=Sofia&effect=3d|fire|fire-animation|emboss|shadow-multiple"> 
+
+    <title>Pearce Restaurant</title>
+</head>
+<body>
+    <div class="bg-image">
+
+        <header>
+        <div class="name">
+            <img src="3.png" alt="logo" width="50px" height="50px">
+            <h1>Pearce</h1>
+        </div>
+        <div >
+            <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div><button type="submit">Book a Table</button></div>
+    </header>
+
+    <main>
+
+        <article>
+        <div><h1  class="font-effect-fire">Enjoy our delicious meal</h1></div>
+        <div><p class="font-effect-fire">Food is not just eating energy. It's an experience.</p></div>
+        <div><p class="font-effect-fire">We offer you an unforgettable experience.</p></div>
+        <div><button type="submit">Book a Table</button></div>
+
+        </article>
+
+    </main>
+
+
+
+
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Sofia", sans-serif;
+            
+        }
+    .bg-image{
+        overflow: hidden;
+        background-position: center;
+        background-image: url("2.jpg");
+        background-repeat:no-repeat ;
+        background-size: cover;
+        background-size: 100% 100%;
+        min-height: 100vh;
+     background-attachment: fixed;
+    /* filter: grayscale(50%); */
+    opacity: 0.9;
+    
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75) inset;
+    }
+
+header{
+    /* border: 2px solid whitesmoke; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 1em;
+}
+
+
+
+    img{
+        border-radius: 50%;
+        background-blend-mode: color-burn;
+    }
+    .name:hover{
+        cursor: pointer;
+
+    }
+    .name{
+        /* border: 2px solid whitesmoke; */
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+        h1{
+            color: hsl(0, 0%, 100%);
+            padding: 2px;
+            font-size: 3em;
+            opacity: 0.8;
+            font-family: "Sofia", sans-serif;
+            font-weight: 1000;
+            transition: opacity 0.5s;
+            transition-timing-function: ease;
+        }
+        h1:hover{
+            opacity: 1;
+            text-decoration: underline;
+
+        }
+    }
+
+        
+        nav ul{
+            /* border: 2px solid whitesmoke; */
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        nav ul li{
+            list-style-type: none;
+            /* border: 2px solid whitesmoke; */
+            font-size: 2em;
+            padding: 0em 0.5em;
+            
+        }
+
+        nav ul li a{
+            color: antiquewhite;
+            text-decoration: none;
+            opacity: 0.6;
+            text-transform: none;
+            transition: opacity 0.5s;
+            font-weight: 1000;
+            transition-timing-function: ease;
+            /* border: 2px solid whitesmoke; */
+        }
+        nav ul li a:hover{
+            opacity: 1;
+            text-decoration: underline;
+            /* background-color: antiquewhite; */
+            /* color: initial; */
+            /* padding:  0em .1em; */
+            border-radius: 2px;
+            font-weight: 1000;
+        
+            
+        }
+
+    header button{
+        font-size: 2em;
+        background-color: transparent;
+        color: aliceblue;
+        padding: 0.2em 0.8em;border: none;
+        /* border: 2px solid aliceblue; */
+        /* border-radius: 15px; */
+        transition: background-color 0.5s;
+            transition-timing-function: ease;
+    }
+    button:hover{
+     
+        background-color: aliceblue;
+        color: initial;
+        cursor: pointer;
+    }
+
+    article{
+        /* border: 2px solid aliceblue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 4em;
+
+        h1{
+            font-size: 3em;
+            color: rgb(0, 0, 0);
+            text-transform: uppercase;
+            text-shadow: violet;
+            -webkit-text-stroke: 1px antiquewhite;
+            text-shadow: 6px 4px 3px #000000;
+            padding: 1em 0em;
+            font-size: 3em;
+            font-weight: 1000;
+        }
+        p{
+            /* background-color: rgb(181, 189, 189); */
+            font-size: 2em;
+            /* background-color: antiquewhite; */
+            font-weight: 1000;
+            color: black;
+            text-transform: capitalize;
+            ;
+            
+           
+        
+        }
+        
+        button{
+            margin: 1em 0em;
+        
+            font-size: 2em;
+        background-color: black;
+        color: antiquewhite;
+        padding: 0.2em 0.8em;border: none;
+        /* border: 2px solid aliceblue; */
+        /* border-radius: 15px; */
+        transition: background-color 0.5s;
+            transition-timing-function: ease;
+    }
+    button:hover{
+     
+        background-color: aliceblue;
+        color: initial;
+        cursor: pointer;
+    }
+
+
+        }
+
+        @media screen and (max-width: 781px) and (min-width: 10px){
+
+
+            article{
+        /* border: 2px solid aliceblue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 2em;
+
+        h1{
+            
+            color: rgb(0, 0, 0);
+            text-transform: uppercase;
+            text-shadow: violet;
+            -webkit-text-stroke: 1px antiquewhite;
+            text-shadow: 6px 4px 3px #000000;
+            padding: 1em 1em;
+            font-size: 3em;
+            font-weight: 1000;
+        }
+        p{
+            /* background-color: rgb(181, 189, 189); */
+            font-size: 2em;
+            /* background-color: antiquewhite; */
+            font-weight: 1000;
+            color: black;
+            padding: 0em 1em;
+            text-transform: capitalize;
+            ;
+             }
+         }   
+        
+        }
+    
+
+        @media screen and (max-width: 387px) and (min-width: 10px){
+            header button{
+                display: none;
+            }
+
+article{
+/* border: 2px solid aliceblue; */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+padding-top: 1em;
+
+h1{
+
+color: rgb(0, 0, 0);
+text-transform: uppercase;
+text-shadow: violet;
+-webkit-text-stroke: 1px antiquewhite;
+text-shadow: 6px 4px 3px #000000;
+padding: 1.5em 1em;
+font-size: 2em;
+font-weight: 1000;
+}
+p{
+/* background-color: rgb(181, 189, 189); */
+font-size: 2em;
+/* background-color: antiquewhite; */
+font-weight: 1000;
+color: black;
+padding: 0em 1em;
+text-transform: capitalize;
+;
+ }
+}   
+
+}
+
+
+
+    </style>
+</body>
+</html>
